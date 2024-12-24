@@ -7,9 +7,8 @@ import pandas as pd
 import nltk
 nltk.downloader.download('vader_lexicon')
 
-#Extract emoji information using emoji_icon from https://emojipedia.org
 def get_emoji_info(emoji_icon):
-    #Extract text from emoji_icon
+    #Extract emoji information using emoji_icon from https://emojipedia.org
     emoji_name = ((emoji.demojize(emoji_icon)).replace(":","")).replace('_','-').lower()
     #Creating url for emojipedia by appending emoji_name
     base_url = f"https://emojipedia.org/{emoji_name}/"
@@ -18,7 +17,6 @@ def get_emoji_info(emoji_icon):
     except:
         print(f"An error occurred: {e}")
         return None
-
     #Flag emoji's have different form of url
     if(response.status_code != 200):
         try:
