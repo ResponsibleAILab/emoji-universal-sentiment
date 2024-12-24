@@ -4,13 +4,13 @@ This repository contains three files related to emoji sentiment analysis and pro
 
 ## Files overview
 ### 1. Sentiment of emojis  
-**standalone_emoji_sentiment_with_pixel_icon_descriptions_by_GPT-4o.txt**  
+[**standalone_emoji_sentiment_with_pixel_icon_descriptions_by_GPT-4o.txt**](https://github.com/ResponsibleAILab/emoji-universal-sentiment/standalone_emoji_sentiment_with_pixel_icon_descriptions_by_GPT-4o.txt)<br>
 This file contains a dataset that maps emojis to their sentiment scores. Each row represents an emoji and its sentiment value.  
-### 2. Collecting emoji representation  
-**emoji_representation_gathering.py** 
+### 2. Collecting emoji representation
+[**emoji_representation_gathering.py**](https://github.com/ResponsibleAILab/emoji-universal-sentiment/emoji_representation_gathering.py)  <br>
 This script collects representations of emojis from Emojipedia.org and Unicode.org  
-### 3. Combine multiple emoji sentiment  
-**sentiment_algorithms_by_standalone_emoji.py**  
+### 3. Combine multiple emoji sentiment 
+[**sentiment_algorithms_by_standalone_emoji.py**](https://github.com/ResponsibleAILab/emoji-universal-sentiment/sentiment_algorithms_by_standalone_emoji.py)  <br>
 This script includes algorithms designed to infer text sentiment using standalone emojis, such as BSA, DPM, Majority Voting, and Position-Aware Sentiment algorithms. 
 
 ## Installation
