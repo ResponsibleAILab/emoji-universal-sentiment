@@ -5,7 +5,7 @@ This repository contains three files related to emoji sentiment analysis and pro
 ## Files overview
 ### 1. Sentiment of emojis  
 [**standalone_emoji_sentiment_with_pixel_icon_descriptions_by_GPT-4o.txt**](https://github.com/ResponsibleAILab/emoji-universal-sentiment/blob/main/standalone_emoji_sentiment_with_pixel_icon_descriptions_by_GPT-4o.txt)<br>
-This file contains a dataset that maps emojis to their sentiment scores. Each row represents an emoji and its sentiment value.  
+This file contains a dataset mapping emojis to their sentiment scores (+1: positive, 0: neutral, -1: negative) as inferred by GPT-4o using pixel, icon, and description representations. Each row corresponds to an emoji and its associated sentiment score.
 ### 2. Collecting emoji representation
 [**emoji_representation_gathering.py**](https://github.com/ResponsibleAILab/emoji-universal-sentiment/blob/main/emoji_representation_gathering.py)  <br>
 This script collects representations of emojis from Emojipedia.org and Unicode.org  
