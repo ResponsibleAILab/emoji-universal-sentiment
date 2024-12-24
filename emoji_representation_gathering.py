@@ -1,4 +1,3 @@
-!pip install emoji
 import requests
 import emoji
 from bs4 import BeautifulSoup
