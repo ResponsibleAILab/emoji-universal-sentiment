@@ -64,12 +64,6 @@ def get_emoji_description(text):
                 return ""
             # save emoji_info result
             emoji_dictionary[emoji_icon]  = emoji_info
-
-        #if emoji_info:
-            #print(f"Emoji Name: {emoji_info['name']}"+ "" + emoji_icon)
-            #print(f"Title: {emoji_info['title']}")
-            #print(f"Description: {emoji_info['description']}")
-
     title = ""
     description = ""
     for emoji_icon in emoji_icons:
@@ -78,9 +72,6 @@ def get_emoji_description(text):
             if (emoji_info['title'] is None):
                 return ""
             title = title + ". "+ emoji_info['title']
-            #if (emoji_info['description'] is None):
-                #return ""
-            #description = description + ". " + emoji_info['description']
             return title
 
 def get_emoji_description(text):
@@ -97,10 +88,6 @@ def get_emoji_description(text):
                 return ""
             # save emoji_info result
             emoji_dictionary[emoji_icon]  = emoji_info
-        #if emoji_info:
-            #print(f"Emoji Name: {emoji_info['name']}"+ "" + emoji_icon)
-            #print(f"Title: {emoji_info['title']}")
-            #print(f"Description: {emoji_info['description']}")
     title = ""
     description = ""
     for emoji_icon in emoji_icons:
@@ -109,9 +96,6 @@ def get_emoji_description(text):
             if (emoji_info['title'] is None):
                 return ""
             title = title + ". "+ emoji_info['title']
-            #if (emoji_info['description'] is None):
-                #return ""
-            #description = description + ". " + emoji_info['description']
             return title
 
 def get_emoji_title(text):
@@ -128,10 +112,6 @@ def get_emoji_title(text):
                 return ""
             # save emoji_info result
             emoji_dictionary[emoji_icon]  = emoji_info
-        #if emoji_info:
-            #print(f"Emoji Name: {emoji_info['name']}"+ "" + emoji_icon)
-            #print(f"Title: {emoji_info['title']}")
-            #print(f"Description: {emoji_info['description']}")
     title = ""
     description = ""
     for emoji_icon in emoji_icons:
@@ -140,9 +120,6 @@ def get_emoji_title(text):
             if (emoji_info['description'] is None):
                 return ""
             title = title + ". "+ emoji_info['description']
-            #if (emoji_info['description'] is None):
-                #return ""
-            #description = description + ". " + emoji_info['description']
             return title
 
 def get_emoji_image_url(text):
@@ -159,10 +136,6 @@ def get_emoji_image_url(text):
                 return ""
             # save emoji_info result
             emoji_dictionary[emoji_icon]  = emoji_info
-        #if emoji_info:
-            #print(f"Emoji Name: {emoji_info['name']}"+ "" + emoji_icon)
-            #print(f"Title: {emoji_info['title']}")
-            #print(f"Description: {emoji_info['description']}")
     title = ""
     description = ""
     for emoji_icon in emoji_icons:
@@ -171,7 +144,4 @@ def get_emoji_image_url(text):
             if (emoji_info['image_url'] is None):
                 return ""
             title = title + ". "+ emoji_info['image_url']
-            #if (emoji_info['description'] is None):
-                #return ""
-            #description = description + ". " + emoji_info['description']
             return title
