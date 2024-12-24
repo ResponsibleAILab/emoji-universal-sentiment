@@ -15,7 +15,7 @@ File Name: sentiment_algorithms_by_standalone_emoji.py
 Purpose: This script contains three algorithms: BSA, DPM, and Majority Voting algorithms to combine emoji representation. It also includes methods to find the best-performing BSA algorithms.  
 ## Installation
 
-Install the following libraries before executing the commands as shown in the provided Jupyter notebook:
+Ensure the following libraries are installed before executing the commands:
 
 ```bash
 pip install emoji
