@@ -14,8 +14,22 @@ sentiment_algorithms_by_standalone_emoji.py
 This script includes algorithms designed to infer text sentiment using standalone emojis, such as BSA, DPM, Majority Voting, and Position-Aware Sentiment algorithms. 
 
 ## Installation
-
 Ensure the following libraries are installed before executing the Python scripts:
 
 ```bash
 pip install emoji
+```
+
+## Citation
+If you find this project useful for your research and applications, please cite using this BibTeX:
+```bibtex
+@misc{jahan2024unlockingcrosslingualsentimentanalysis,
+      title={Unlocking Cross-Lingual Sentiment Analysis through Emoji Interpretation: A Multimodal Generative AI Approach},
+      author={Rafid Ishrak Jahan and Heng Fan and Haihua Chen and Yunhe Feng},
+      year={2024},
+      eprint={2412.17255},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.17255},
+}
+```
